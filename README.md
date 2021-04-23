@@ -10,7 +10,8 @@ A project that contains the connection properties for databases, and general pro
 this folder contains the compose.yml and some commands necessaries to run the project in docker containers
 ## eureka-server: 
 This service is the main server where all the microservices are registered and can communicate with each other
-## items-service: this service contains the logic to count all the items for each product and also connect with products-service through eureka-server
+## items-service: 
+this service contains the logic to count all the items for each product and also connect with products-service through eureka-server
 ## OAuth-service: 
 this service contains all the logic for the login, register of users and managing of roles, encryption of passwords, protection of endpoints, and a couple of things more. This project connects with user-services using eureka-server
 
